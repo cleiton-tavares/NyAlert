@@ -1,0 +1,55 @@
+.ny-alert{
+  position: fixed;
+  color: #FFF;
+  font-size: 90%;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+  top: 0;
+}
+.ny-alert.icon {
+  box-shadow: inset 4.5em 0 rgba(0,0,0,0.16);
+}
+.ny-alert.icon .ny-ico i{
+  float: left;
+}
+.ny-alert.icon .ny-ico{
+  font-size: 32px;
+  padding: 0;
+  margin: 10px 12px;
+  width: 80%;
+  height: 40px;
+  display: inline-block;
+}
+.ny-alert.icon .ny-contanier{
+  width: 90%;
+  font-size: 14px;
+  margin-top: 6px;
+  float: left;
+  margin-left: 20px;
+}
+.ny-alert.icon .ny-close{
+  cursor: pointer;
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.ny-alert.icon .ny-close.error {
+  color: #DB5163;
+}
+.ny-alert.icon .ny-close.success {
+  color: #1C5598;
+}
+.ny-alert.icon .ny-close.warn {
+  color: #FFD58F;
+}
+.error{
+  background: #D0021B;
+}
+.warn{
+  background: #F5A623;
+}
+.success{
+  background: #4A90E2;
+}
